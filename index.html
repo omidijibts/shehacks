@@ -3,6 +3,10 @@
  
  <head>
      <title>c19 webpage</title>
+     <style>
+         body {background-color: greenyellow;}
+         h1 {color: blue;margin-left: 40px;}
+     </style>
     </head>
     
     <body>
@@ -12,7 +16,8 @@
             <ul>Contact Us</ul>
             <ul>FAQ</ul>
         </nav>
-        <h1>Omidiji's Blog </h1>
+        <h1 >Omidiji's Blog </h1>
+<!--        <h1 style="color:pink; margin-left:30px;">Omidiji's Blog </h1>-->
         <h3>My Shehacks Experience</h3>
         
         <p>I came late, and as expected, a little sloppy.</p>
@@ -21,7 +26,7 @@
 <li>Kkc</li>
 <li>Nimi</li>        
 <li>Kareem</li>        
-<li>Bukunmi</li>        
+<li>Bukunmi</li>
 <li>Adebodun</li>
         </ol>
 <p>They are latecomers! My name is there, so they're kings- lol.</p>
@@ -72,4 +77,34 @@
         </tr>
         
             
-        </body>
+        <form action="/action_page.php">
+            
+        <p>First name:<br>
+        <input type="text" name="firstname"placeholder="confirmation"><br>
+        Last name:<br>
+            <input type="text" name="lastname"><br></p>
+         
+        E-mail:<br>
+        <input type="text" name="email"><br>
+        Password:<br>
+        <input type="text" name="password"><br>
+            
+        <p>What is your area of Specialization?</p>
+        <input type="checkbox" name="css">Football<br>
+        <input type="checkbox" name="css">Rugby<br>
+        <input type="checkbox" name="css">Tennis<br>
+        <input type="checkbox" name="css">None<br>
+    
+                      
+         Gender:<br>
+        <input type="radio" name="gender" value="male">male<br>
+        <input type="radio" name="gender" value="female">female<br>
+            
+   State of origin<br>
+            <select>
+                <option value="Lagos">Lagos</option>
+                <option value="Osun">Osun</option></select><br>                       
+      <input style="border: 10px solid green; background: yellow" type="submit"value="submit">
+                        
+        </form>
+</body>
